@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFF1F8E9"
+	android:gravity="center_horizontal"
+	android:textAlignment="gravity"
+	android:orientation="vertical">
+
+	<include
+		layout="@layout/appbar_menu"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Counter"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textStyle="bold"
+		android:textColor="#FF70AC3C"
+		android:textSize="50sp"
+		android:layout_marginTop="100dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="0"
+		android:layout_marginTop="30dp"
+		android:textSize="90sp"
+		android:textColor="#FFA3D36C"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:id="@+id/countNum"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="COUNT"
+		android:layout_marginTop="70dp"
+		android:paddingRight="40dp"
+		android:paddingLeft="40dp"
+		android:paddingTop="20dp"
+		android:paddingBottom="20dp"
+		android:textStyle="bold"
+		android:textColor="#FFD0E9B2"
+		android:background="#FF7DB767"
+		android:textSize="20sp"
+		android:typeface="sans"
+		android:id="@+id/countBtn"/>
+
+	<Button
+		android:layout_width="100dp"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:text="Reset"
+		android:layout_marginTop="15dp"
+		android:padding="15dp"
+		android:background="#FF9CCB8B"
+		android:textColor="#FF436535"
+		android:id="@+id/countReset"/>
+
+</LinearLayout>
+

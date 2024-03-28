@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#FF347D30"
+	android:id="@+id/appbarmenu1"
+	android:gravity="top">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="9dp"
+		android:layout_centerHorizontal="true">
+
+		<ImageView
+			android:src="@drawable/user"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/appbarmenuImageView1"
+			android:layout_marginLeft="10dp"/>
+
+		<ImageView
+			android:src="@drawable/menu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentEnd="true"
+			android:layout_marginRight="10dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Home"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_toRightOf="@id/appbarmenuImageView1"
+			android:layout_marginLeft="10dp"
+			android:textStyle="bold"
+			android:layout_marginTop="4dp"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+
